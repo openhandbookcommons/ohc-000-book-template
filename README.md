@@ -34,9 +34,7 @@ Output will appear in `_book/`.
 
 Unless otherwise stated, all content in this repository is licensed under:
 **CC BY-NC-SA 4.0** (Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International).
+
 See `LICENSE.md`.
 
-## Contributing
-
-Please see `CONTRIBUTING.md` and `AI_POLICY.md`.
 
