@@ -13,9 +13,15 @@ book:
     - front-matter/disclaimers.qmd
     - front-matter/printing.qmd
     - front-matter/preface.qmd
-    - chapters/01-introduction.qmd
-    - chapters/02-core-skills.qmd
-    - chapters/03-checklists.qmd
+    - part: "Part I Title"
+      chapters: 
+        - chapters/01-introduction.qmd
+    - part: "Part II Title"
+      chapters:
+        - chapters/02-core-skills.qmd
+    - part: "Part III Title"
+      chapters:
+        - chapters/03-checklists.qmd
     - back-matter/contribute.qmd
 
 format:
@@ -31,11 +37,19 @@ format:
       - bottom=25mm
       - left=30mm
       - right=20mm
+    mainfont: LibertinusSerif
+    mainfontoptions:
+      - Path=fonts/
+      - Extension=.ttf
+      - UprightFont=*-Regular
+      - BoldFont=*-Bold
+      - ItalicFont=*-Italic
+      - BoldItalicFont=*-BoldItalic
     toc: true
     number-sections: true
     colorlinks: true
 
 execute:
   echo: false
-  warning: false
-  message: false
+  #warning: false
+  #message: false
