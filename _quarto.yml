@@ -1,0 +1,41 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Open Handbook: Template"
+  subtitle: "A print-friendly Quarto template for the Open Handbook Commons Project"
+  author: "Open Handbook Commons (community-authored)"
+  date: last-modified
+  chapters:
+    - index.qmd
+    - front-matter/license.qmd
+    - front-matter/disclaimers.qmd
+    - front-matter/printing.qmd
+    - front-matter/preface.qmd
+    - chapters/01-introduction.qmd
+    - chapters/02-core-skills.qmd
+    - chapters/03-checklists.qmd
+    - back-matter/contribute.qmd
+
+format:
+  pdf:
+    pdf-engine: lualatex
+    documentclass: book
+    classoption: openany
+    papersize: A4
+    fontsize: 11pt
+    linestretch: 1.35
+    geometry:
+      - top=20mm
+      - bottom=25mm
+      - left=30mm
+      - right=20mm
+    toc: true
+    number-sections: true
+    colorlinks: true
+
+execute:
+  echo: false
+  warning: false
+  message: false

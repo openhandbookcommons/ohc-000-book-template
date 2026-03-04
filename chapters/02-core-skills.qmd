@@ -1,0 +1,10 @@
+# Core skills
+
+Organize the book into small, practice-oriented sections.
+
+## Example section
+
+- Explain the goal
+- Provide step-by-step instructions
+- Include common mistakes
+- Add a quick troubleshooting list

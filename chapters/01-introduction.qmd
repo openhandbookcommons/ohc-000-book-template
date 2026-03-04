@@ -1,0 +1,15 @@
+# Introduction
+
+This is an example chapter. Replace it with your topic-specific content.
+
+## Who this book is for
+
+Write a short, welcoming description of your audience.
+
+## What you will learn
+
+Use a bullet list of practical outcomes.
+
+## What you need
+
+List tools or materials (if any).

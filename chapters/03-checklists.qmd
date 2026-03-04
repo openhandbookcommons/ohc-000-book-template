@@ -1,0 +1,13 @@
+# Checklists & quick references
+
+Printable checklists are a huge value add for a spiral-bound book.
+
+## Example: Quick checklist
+
+- [ ] Item 1
+- [ ] Item 2
+- [ ] Item 3
+
+## Safety note
+
+If the topic has risks, add a clear safety note here.
