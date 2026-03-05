@@ -15,6 +15,8 @@ for the Open Handbook Commons Project.
 - [Quarto](https://quarto.org/)
 - A LaTeX distribution:
   - TinyTex: `quarto install tinytex`
+- Python packages: 
+  - `pip install pyyaml pypdf reportlab`
 
 ### Render PDF
 ```bash

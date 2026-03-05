@@ -1,6 +1,7 @@
 project:
   type: book
   output-dir: _book
+  post-render: scripts/add_cover.py
 
 book:
   title: "Open Handbook: Template"
@@ -31,7 +32,7 @@ format:
     classoption: openany
     papersize: A4
     fontsize: 11pt
-    linestretch: 1.35
+    linestretch: 1.2
     geometry:
       - top=20mm
       - bottom=25mm
@@ -49,7 +50,20 @@ format:
     number-sections: true
     colorlinks: true
 
+ohc:
+  cover:
+    image: cover/cover-bg.jpg
+    logo: cover/logo.png       # optional, can omit
+    papersize: A4              # A4 or letter
+    overlay_opacity: 0.1      # 0.0 to 0.7 typical
+    margin_mm: 25
+    title_size: 40
+    subtitle_size: 25
+    url_text: openhandbook.org # optional
+
 execute:
   echo: false
   #warning: false
   #message: false
+
+
